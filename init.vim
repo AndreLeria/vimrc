@@ -10,6 +10,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugins
 Plugin 'scrooloose/syntastic'
 Plugin 'w0rp/ale'
+Plugin 'altercation/vim-colors-solarized'
 
 " NERDTree
 Plugin 'scrooloose/nerdtree'
@@ -36,8 +37,16 @@ let g:ale_fixers = {
 \}
 let g:ale_fix_on_save = 1
 
+" gVim Solarized
+if has('gui_running')
+  set rtp+=~/.vim/bundle/vim-colors-solarized
+  set background=light
+  colorscheme solarized
+endif
+
 " mine
 syntax enable
 set nu
 set shiftwidth=2 tabstop=2 expandtab
 set incsearch ignorecase smartcase
+set enc=utf-8
