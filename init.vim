@@ -44,9 +44,15 @@ if has('gui_running')
   colorscheme solarized
 endif
 
+" font
+if has('gui_running')
+  set guifont=Fantasque_Sans_Mono:h11
+endif
+
 " mine
 syntax enable
 set nu
 set shiftwidth=2 tabstop=2 expandtab
 set incsearch ignorecase smartcase
 set enc=utf-8
+set bs=2
