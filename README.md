@@ -9,6 +9,8 @@ Fork it for your own changes and clone it into something like `$HOME/example/vim
 
 Since I use [Vundle](https://github.com/VundleVim/Vundle.vim), the next time you open Vim (or run `:source %` on the `.vimrc`) you'll need to run `:PluginInstall` to have the plugins set up.
 
+This vimrc configures the `guifont` as [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans).
+
 ## Current plugins
 
 * [Syntastic](https://github.com/scrooloose/syntastic)
@@ -17,3 +19,4 @@ Since I use [Vundle](https://github.com/VundleVim/Vundle.vim), the next time you
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
 * [ALE](https://github.com/w0rp/ale)
   * Configured witt [Prettier](https://github.com/prettier/prettier) for Html, Js and Css
+* [Vim Solarized](https://github.com/vim-colors-solarized)
